@@ -42,6 +42,7 @@ h5{
     font-weight: bold;
 }
 .container-fluid{
+    margin-top:100px;
     margin-bottom:100px;
 }
 .container-fluid h2{
