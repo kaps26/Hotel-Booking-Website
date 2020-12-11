@@ -1,44 +1,50 @@
 <html>
     <head>
-        <title>
-            Detail
-        </title>
+        <title>Detail</title>
     </head>
     <body>
         <div>
             <div>
-                <img src="assests/images/logo.png" alt="logo" height="200" width="200">
-                <a href="login.html" target="_blank">Login</a>
+                <a href="C:\Users\Spandy\Downloads\Hotel\index.html">
+                    <img src="assests/images/logo.png" alt="logo" style="width:150; height:100"></a><br>
+                <a href="C:\Users\Spandy\Downloads\Hotel\login.html" target="_self">Login</a>
             </div>
             <div>
-
-                <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
-                <br>
-                <a href="payment.html" target="_self">Book Now</a>
+                <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"><br><br>
+                <form autocomplete="off" action="C:\Users\Spandy\Downloads\Hotel\payment.html" method="POST" target="_self">
+                    <label for="adults">Adults:</label>
+                        <input type="number" name="adults" min="1"><br>
+                    <label for="name">Name:</label>
+                        <input type="text" name="name" required><br>
+                    <label for="fromdate">From Date:</label>
+                        <input type="date" name="fromdate" required><br>
+                    <label for="todate">To Date:</label>
+                        <input type="date" name="todate" required><br>
+                    <label for="total">Total:</label>
+                        <input type="text" name="total" disabled><br>
+                    <input type="submit" value="Book Now">      
+                </form>
+                
                 <h2>Radisson Blu Hotel</h2>
-                <p>Rating</p>
+                <p>RATING</p>
                 <p>5 Star</p>
-
                 <p>AMENITIES</p>
                 <ul>
-                    <li>Room service</li>
+                    <li>Room Service</li>
                     <li>Restaurant</li>
-                    <li>Business center</li>
-                    <li>Fitness center</li>
+                    <li>Business Center</li>
+                    <li>Fitness Center</li>
                     <li>Pool</li>
                 </ul>
-
-                <h3>DESCRIPTION</h3>
-                <p>The essence of Radisson Blu is reflected in every aspect of 
-                    who we are and what we do. We provide unparalleled service, 
-                    comfort and style, while creating meaningful and memorable experiences.</p>
+                <h5>DESCRIPTION</h5>
+                <p>Dummy text</p>
             </div>
             <div>
-                <a href="contact.html" target="_blank">Contact Us</a><br>
-                <a href="https://www.facebook.com" target="_blank"><img src="assests/images/facebook.png" height="20px" width="22px"></a>
-                <a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png" height="20px" width="22px"></a>
-                <a href="https://twitter.com" target="_blank"><img src="assests/images/twitter.png" height="20px" width="22px"></a><br>
-                <span>@ 2020 ROOM SEARCH PVT LTD</span>
+                <a href="C:\Users\Spandy\Downloads\Hotel\contact.html" target="_self">Contact Us</a><br>
+                <a href="https://www.facebook.com/" target="_blank"><img src="assests/images/facebook.png" style="width: 20px; height: 22px;"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="assests/images/instagram.png" style="width: 20px; height: 22px;"></a>
+                <a href="https://www.twitter.com/" target="_blank"><img src="assests/images/twitter.png" style="width: 20px; height: 22px;"></a>
+                <p>© 2020 ROOM SEARCH PVT. LTD.</p>
             </div>
         </div>
     </body>
