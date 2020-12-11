@@ -4,19 +4,19 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Detail</title>
-        <link rel="stylesheet" type="text/css" href="C:\Users\Spandy\Downloads\Hotel\styles\common.css">
-        <link rel="stylesheet" type="text/css" href="C:\Users\Spandy\Downloads\Hotel\styles\detail.css">
+        <link rel="stylesheet" type="text/css" href="C:\Users\sahuk\Downloads\Hotel\styles\common.css">
+        <link rel="stylesheet" type="text/css" href="C:\Users\sahuk\Downloads\Hotel\styles\detail.css">
     </head>
     <body>
         <div>
             <header>
                 <a href="C:\Users\Spandy\Downloads\Hotel\index.html">
-                    <img class="logo" src="assests/images/logo.png" alt="logo"></a><br>
-                <a href="C:\Users\Spandy\Downloads\Hotel\login.html" target="_self">Login</a>
+                    <img class="logo" src="assests/images/logo.png" alt="logo"></a>
+                <div class="links"><a href="C:\Users\sahuk\Downloads\Hotel\login.html" target="_self">Login</a></div>
             </header>
-            <div>
-                <img id="card" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"><br><br>
-                <form autocomplete="off" action="C:\Users\Spandy\Downloads\Hotel\payment.html" method="POST" target="_self">
+            <div class="container">
+                <img id="card" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
+                <form autocomplete="off" action="C:\Users\sahuk\Downloads\Hotel\payment.html" method="POST" target="_self">
                     <label for="adults">Adults:</label>
                         <input type="number" name="adults" min="1"><br>
                     <label for="name">Name:</label>
@@ -45,11 +45,15 @@
                 <p>Dummy text</p>
             </div>
             <footer>
-                <a href="C:\Users\Spandy\Downloads\Hotel\contact.html" target="_self">Contact Us</a><br>
-                <a href="https://www.facebook.com/" target="_blank"><img class="social" src="assests/images/facebook.png"></a>
-                <a href="https://www.instagram.com/" target="_blank"><img class="social" src="assests/images/instagram.png"></a>
-                <a href="https://www.twitter.com/" target="_blank"><img class="social" src="assests/images/twitter.png"></a>
-                <p>© 2020 ROOM SEARCH PVT. LTD.</p>
+                <div class="contact">
+                    <a href="C:\Users\sahuk\Downloads\Hotel\contact.html" target="_self">Contact Us</a>
+                </div>
+                <div class="icons">
+                    <a href="https://www.facebook.com/" target="_blank"><img class="social" src="assests/images/facebook.png"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img class="social" src="assests/images/instagram.png"></a>
+                    <a href="https://www.twitter.com/" target="_blank"><img class="social" src="assests/images/twitter.png"></a>
+                </div>
+                <div id="copyright">© 2020 ROOM SEARCH PVT. LTD.</div>
             </footer>
         </div>
     </body>
